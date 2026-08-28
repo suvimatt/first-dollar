@@ -1,6 +1,6 @@
 # The Minimalist Entrepreneur — Agent Skills
 
-Ten reusable skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia.
+Ten reusable skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia, plus a lightweight first-dollar orchestrator that turns the principles into one evidence-tracked journey.
 
 The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes.
 
@@ -9,21 +9,16 @@ The skills follow the open [Agent Skills specification](https://agentskills.io) 
 Use the cross-agent [`skills`](https://skills.sh) installer:
 
 ```bash
-npx skills add suvimatt/solopreneur-opc-skills
+npx skills add suvimatt/solopreneur-opc-skills --copy
 ```
 
 The installer detects supported agents and lets you choose which skills to install.
-
-## Upgrade to get the latest version
-
-```bash
-npx skills update suvimatt/solopreneur-opc-skills
-```
 
 ## Skills
 
 | Skill | Command | When to use |
 |-------|---------|-------------|
+| **First Dollar** | `/first-dollar` | Want one guided path from a reachable problem to a verified customer payment |
 | **Find Community** | `/find-community` | Looking for a business idea, trying to find your community |
 | **Validate Idea** | `/validate-idea` | Testing if a business idea is worth pursuing |
 | **MVP** | `/mvp` | Ready to build your first product, struggling with scope |
@@ -37,7 +32,7 @@ npx skills update suvimatt/solopreneur-opc-skills
 
 ## The Minimalist Entrepreneur Journey
 
-The skills follow the book's progression:
+Use `/first-dollar` as the guided entry point when you want the system to identify the current bottleneck, route to the relevant skill, preserve an evidence checkpoint, and return one next action. The foundational skills follow the book's progression:
 
 1. **Community** — Start by finding your people
 2. **Validate** — Make sure the problem is worth solving
@@ -50,3 +45,4 @@ The skills follow the book's progression:
 9. **Culture** — Build the house you want to live in
 10. **Review** — Apply minimalist principles to every decision
 
+This fork continues the original [`slavingia/skills`](https://github.com/slavingia/skills) project with cross-agent compatibility.
