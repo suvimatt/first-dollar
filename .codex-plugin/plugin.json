@@ -1,0 +1,28 @@
+{
+  "name": "solopreneur-opc-skills",
+  "version": "1.0.0",
+  "description": "Minimalist entrepreneur skills for validating, building, selling, and growing a sustainable business.",
+  "author": {
+    "name": "Suvimatt"
+  },
+  "repository": "https://github.com/suvimatt/solopreneur-opc-skills",
+  "license": "MIT",
+  "keywords": [
+    "entrepreneurship",
+    "solopreneur",
+    "business",
+    "minimalist"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "The Minimalist Entrepreneur",
+    "shortDescription": "Build a profitable, sustainable business from community.",
+    "longDescription": "Ten practical skills for finding a community, validating an idea, building manually, reaching early customers, pricing, marketing, and growing sustainably.",
+    "developerName": "Suvimatt",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Help me apply the minimalist entrepreneur framework to my business."
+  }
+}
