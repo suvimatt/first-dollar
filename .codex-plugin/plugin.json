@@ -1,17 +1,17 @@
 {
   "name": "first-dollar",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Agent skills that guide developers from an idea to their first verified customer payment.",
   "author": {
     "name": "Suvimatt"
   },
   "repository": "https://github.com/suvimatt/first-dollar",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "keywords": [
     "entrepreneurship",
     "solopreneur",
     "business",
-    "minimalist"
+    "ai-native"
   ],
   "skills": "./skills/",
   "interface": {

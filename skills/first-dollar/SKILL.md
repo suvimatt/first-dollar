@@ -1,11 +1,22 @@
 ---
 name: first-dollar
-description: Guide a solopreneur from a reachable customer problem to a first verified customer payment. Use when someone wants their first online revenue, needs the next step from idea to sale, or wants one evidence-tracked journey across community, validation, offer, outreach, payment, and delivery.
+description: Guide a developer or solopreneur from a reachable customer problem to a first verified customer payment. Use when someone wants first revenue, needs the next step from idea to sale, or wants one AI-native, evidence-tracked journey across validation, offer, outreach, payment, and delivery.
 ---
 
 # First Dollar
 
 Orchestrate the shortest honest path to one verified customer payment. Reuse the companion skills when they are installed; otherwise handle the necessary step directly. Keep the user's judgment and every consequential action under their control.
+
+## Foundation and Evolution
+
+First Dollar v0.1 primarily adapts *The Minimalist Entrepreneur* by Sahil Lavingia. Treat its principles as strong starting hypotheses, not timeless laws. Distinguish the source framework, First Dollar adaptations, assumptions, and evidence from the user's actual situation.
+
+Apply four initial AI-native adaptations:
+
+- AI reduces building cost, not demand risk. Generated artifacts, deployment, traffic, and attention are not substitutes for buyer commitment or payment.
+- Prefer the cheapest credible experiment. Manual delivery is often best, but an AI-assisted prototype is valid when it produces credible learning faster and more cheaply.
+- As AI increases generic supply, customer access, problem specificity, trust, proprietary context, and distribution become more important.
+- Agents may research, draft, prototype, and operate; keep customer promises, consequential decisions, external actions, and evidence interpretation human-owned.
 
 ## Definition of Done
 
