@@ -1,11 +1,18 @@
-# First Dollar — Agent skills that guide you from an idea to first customer payment.
+# First Dollar — An evolving AI-native startup field guide for developers.
 
 > Talk is cheap, earn me the money.
 
-Ten reusable skills based on the startup practice of [The Minimalist Entrepreneur](https://github.com/slavingia/skills), plus a lightweight first-dollar orchestrator that turns the principles into one evidence-tracked journey.
+First Dollar helps developers work toward their first verified customer payment through an evidence-tracked journey and reusable Agent Skills.
+
+Its current foundation is adapted from [*The Minimalist Entrepreneur*](https://www.minimalistentrepreneur.com/) by Sahil Lavingia. First Dollar preserves the book's emphasis on community, early sales, manual validation, profitability, and sustainable growth while exploring how AI agents change the cost and speed of research, prototyping, delivery, and iteration.
+
+## Project status
+
+First Dollar is independent, experimental, and evolving. It is not an official companion to the book or a claim of proven entrepreneurial success. The maintainer is using the project while beginning his own product journey, so its guidance is treated as hypotheses to test through real practice, user feedback, payment, and delivery—not as guaranteed business outcomes.
 
 ## Install
-> The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes, etc.
+
+> The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes.
 
 Use the cross-agent [`skills`](https://skills.sh) installer:
 
@@ -37,9 +44,18 @@ npx skills update suvimatt/first-dollar
 | **Company Values** | `/company-values` | Defining culture, preparing to hire |
 | **Minimalist Review** | `/minimalist-review` | Gut-checking any business decision |
 
-## The Minimalist Entrepreneur Journey
+## First Dollar Journey — v0.1
 
-Use `/first-dollar` as the guided entry point when you want the system to identify the current bottleneck, route to the relevant skill, preserve an evidence checkpoint, and return one next action. The foundational skills follow the book's progression:
+Use `/first-dollar` as the guided entry point when you want the system to identify the current bottleneck, route to the relevant skill, preserve an evidence checkpoint, and return one next action.
+
+Version 0.1 closely follows *The Minimalist Entrepreneur*. First Dollar adds a strict definition of verified customer payment, an evidence-tracked journey, and these initial AI-native adaptations:
+
+- **AI reduces building cost, not demand risk.** Generated products, content, traffic, and likes do not replace buyer commitment, payment, or repeat use.
+- **Prefer the cheapest credible experiment.** Manual delivery is often best, but an AI-assisted prototype is valid when it produces credible learning faster and more cheaply.
+- **Specificity matters more as supply gets cheaper.** Reachable buyers, narrow problems, trust, proprietary context, and distribution become more important as AI increases supply.
+- **Keep consequential judgment human-owned.** Agents can research, draft, prototype, and operate; people remain responsible for customer promises, evidence interpretation, and external actions.
+
+The current companion skills retain the book's progression:
 
 1. **Community** — Start by finding your people
 2. **Validate** — Make sure the problem is worth solving
@@ -52,4 +68,4 @@ Use `/first-dollar` as the guided entry point when you want the system to identi
 9. **Culture** — Build the house you want to live in
 10. **Review** — Apply minimalist principles to every decision
 
-This fork continues the original [`slavingia/skills`](https://github.com/slavingia/skills) project with cross-agent compatibility.
+This repository began as a continuation of [`slavingia/skills`](https://github.com/slavingia/skills). First Dollar now provides an independent upper-level brand and AI-native adaptation while continuing to credit the book as its primary foundation. See [References](REFERENCES.md) for the current relationship to source ideas and [Field Notes](FIELD-NOTES.md) for the learning format that will guide future changes.
