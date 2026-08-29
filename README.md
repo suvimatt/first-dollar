@@ -1,4 +1,4 @@
-# First Dollar — Agent Skills to build your business from 0 to 1.
+# First Dollar — Agent skills that guide you from an idea to first customer payment.
 
 > Talk is cheap, earn me the money.
 

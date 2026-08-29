@@ -1,11 +1,11 @@
 {
-  "name": "solopreneur-opc-skills",
+  "name": "first-dollar",
   "version": "1.0.0",
-  "description": "Minimalist entrepreneur skills for validating, building, selling, and growing a sustainable business.",
+  "description": "Agent skills that guide developers from an idea to their first verified customer payment.",
   "author": {
     "name": "Suvimatt"
   },
-  "repository": "https://github.com/suvimatt/solopreneur-opc-skills",
+  "repository": "https://github.com/suvimatt/first-dollar",
   "license": "MIT",
   "keywords": [
     "entrepreneurship",
@@ -15,14 +15,14 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "The Minimalist Entrepreneur",
-    "shortDescription": "Build a profitable, sustainable business from community.",
-    "longDescription": "Ten practical skills for finding a community, validating an idea, building manually, reaching early customers, pricing, marketing, and growing sustainably.",
+    "displayName": "First Dollar",
+    "shortDescription": "Reach your first verified customer payment.",
+    "longDescription": "An evidence-tracked journey and practical skills for finding a reachable customer problem, defining a manual offer, making a sale, delivering value, and growing sustainably.",
     "developerName": "Suvimatt",
     "category": "Productivity",
     "capabilities": [
       "Interactive"
     ],
-    "defaultPrompt": "Help me apply the minimalist entrepreneur framework to my business."
+    "defaultPrompt": "Help me take the next evidence-backed step toward my first verified customer payment."
   }
 }
