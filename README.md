@@ -2,11 +2,10 @@
 
 > Talk is cheap, earn me the money.
 
-Ten reusable skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia, plus a lightweight first-dollar orchestrator that turns the principles into one evidence-tracked journey.
-
-The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes, etc.
+Ten reusable skills based on the startup practice of [The Minimalist Entrepreneur](https://github.com/slavingia/skills), plus a lightweight first-dollar orchestrator that turns the principles into one evidence-tracked journey.
 
 ## Install
+> The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes, etc.
 
 Use the cross-agent [`skills`](https://skills.sh) installer:
 
