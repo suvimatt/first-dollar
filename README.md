@@ -1,18 +1,26 @@
-# The Minimalist Entrepreneur — Agent Skills
+# First Dollar — Agent Skills to build your business from 0 to 1.
+
+> Talk is cheap, earn me the money.
 
 Ten reusable skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia, plus a lightweight first-dollar orchestrator that turns the principles into one evidence-tracked journey.
 
-The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes.
+The skills follow the open [Agent Skills specification](https://agentskills.io) and work with compatible agents including Codex, Claude Code, OpenClaw, and Hermes, etc.
 
 ## Install
 
 Use the cross-agent [`skills`](https://skills.sh) installer:
 
 ```bash
-npx skills add suvimatt/solopreneur-opc-skills --copy
+npx skills add suvimatt/first-dollar
 ```
 
 The installer detects supported agents and lets you choose which skills to install.
+
+## Upgrade to get the latest version
+
+```bash
+npx skills update suvimatt/first-dollar
+```
 
 ## Skills
 
