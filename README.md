@@ -1,14 +1,16 @@
-# First Dollar — An evolving AI-native startup field guide for developers.
+# The AI-Native Bootstrapper
 
-> Talk is cheap, earn me the money.
+> **Start small. Grow profitably. Compound customer value with AI.**
 
-First Dollar helps developers work toward their first verified customer payment through an evidence-tracked journey and reusable Agent Skills.
+The AI-Native Bootstrapper is an experimental field guide and collection of reusable Agent Skills for developers and solopreneurs building customer-funded businesses. It favors starting with as little capital as practical, earning from customers early, and using AI to compound customer value rather than chase growth at any cost.
 
-Its current foundation is adapted from [*The Minimalist Entrepreneur*](https://www.minimalistentrepreneur.com/) by Sahil Lavingia. First Dollar preserves the book's emphasis on community, early sales, manual validation, profitability, and sustainable growth while exploring how AI agents change the cost and speed of research, prototyping, delivery, and iteration.
+Starting small limits risk and keeps the business close to its customers; it is not a ceiling on ambition. The goal is to grow stronger with every customer served: more useful, more profitable, more trusted, and more capable.
+
+The project's current foundation is adapted from [*The Minimalist Entrepreneur*](https://www.minimalistentrepreneur.com/) by Sahil Lavingia. It preserves the book's emphasis on community, early sales, manual validation, profitability, and sustainable growth while exploring how AI agents change the cost and speed of research, prototyping, delivery, and iteration.
 
 ## Project status
 
-First Dollar is independent, experimental, and evolving. It is not an official companion to the book or a claim of proven entrepreneurial success. The maintainer is using the project while beginning his own product journey, so its guidance is treated as hypotheses to test through real practice, user feedback, payment, and delivery—not as guaranteed business outcomes.
+The AI-Native Bootstrapper is independent, experimental, and evolving. It is not an official companion to the book or a claim of proven entrepreneurial success. The maintainer is using the project in his own entrepreneurial journey, so its guidance is treated as hypotheses to test through real practice, user feedback, payment, and delivery—not as guaranteed business outcomes.
 
 ## Install
 
@@ -17,7 +19,7 @@ First Dollar is independent, experimental, and evolving. It is not an official c
 Use the cross-agent [`skills`](https://skills.sh) installer:
 
 ```bash
-npx skills add suvimatt/first-dollar
+npx skills add suvimatt/ai-bootstrapper
 ```
 
 The installer detects supported agents and lets you choose which skills to install.
@@ -25,7 +27,7 @@ The installer detects supported agents and lets you choose which skills to insta
 ## Upgrade to get the latest version
 
 ```bash
-npx skills update suvimatt/first-dollar
+npx skills update suvimatt/ai-bootstrapper
 ```
 
 ## Skills
@@ -44,11 +46,11 @@ npx skills update suvimatt/first-dollar
 | **Company Values** | `/company-values` | Defining culture, preparing to hire |
 | **Minimalist Review** | `/minimalist-review` | Gut-checking any business decision |
 
-## First Dollar Journey — v0.1
+## From First Dollar to Sustainable Growth — v0.1
 
-Use `/first-dollar` as the guided entry point when you want the system to identify the current bottleneck, route to the relevant skill, preserve an evidence checkpoint, and return one next action.
+A first dollar is evidence, not the destination. Use `/first-dollar` as the guided entry point when you want the system to identify the current bottleneck, route to the relevant skill, preserve an evidence checkpoint, and return one next action.
 
-Version 0.1 closely follows *The Minimalist Entrepreneur*. First Dollar adds a strict definition of verified customer payment, an evidence-tracked journey, and these initial AI-native adaptations:
+Version 0.1 closely follows *The Minimalist Entrepreneur*. The `/first-dollar` journey adds a strict definition of verified customer payment, an evidence-tracked path from a reachable problem through payment and delivery, and these initial AI-native adaptations:
 
 - **AI reduces building cost, not demand risk.** Generated products, content, traffic, and likes do not replace buyer commitment, payment, or repeat use.
 - **Prefer the cheapest credible experiment.** Manual delivery is often best, but an AI-assisted prototype is valid when it produces credible learning faster and more cheaply.
@@ -68,4 +70,4 @@ The current companion skills retain the book's progression:
 9. **Culture** — Build the house you want to live in
 10. **Review** — Apply minimalist principles to every decision
 
-This repository began as a continuation of [`slavingia/skills`](https://github.com/slavingia/skills). First Dollar now provides an independent upper-level brand and AI-native adaptation while continuing to credit the book as its primary foundation. See [References](REFERENCES.md) for the current relationship to source ideas and [Field Notes](FIELD-NOTES.md) for the learning format that will guide future changes.
+This repository began as a continuation of [`slavingia/skills`](https://github.com/slavingia/skills). The AI-Native Bootstrapper is now an independent adaptation that continues to credit the book as its primary foundation while testing what changes in an AI-native era. See [References](REFERENCES.md) for the current relationship to source ideas and [Field Notes](FIELD-NOTES.md) for the learning format that will guide future changes.
