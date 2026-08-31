@@ -3,68 +3,59 @@ name: validate-idea
 description: Validate a business idea through observed problems, buyer commitment, payment, and the cheapest credible experiment. Use when someone wants to test whether an idea is worth pursuing before making a larger product investment.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the validation principles adapted from *The Minimalist Entrepreneur* and distinguish assumptions, generated output, attention, buyer commitment, and payment evidence.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply validation principles adapted from *The Minimalist Entrepreneur* while distinguishing assumptions, artifacts, user behavior, buyer commitment, and payment evidence.
 
 ## Core Principle
 
-**Validation happens through selling, not building.** Most founders spend months building a product nobody wants. Instead, validate by selling a manual version of your solution first.
+**A prototype is a question, not proof.** Coding agents can make a working prototype cheaper than prolonged research or manual simulation. Build when interaction with the product is the fastest credible way to test the riskiest assumption; let user behavior and revenue decide what survives.
 
-AI can make a credible prototype cheaper than manual simulation in some cases. Use it when it shortens the learning loop, but never count generated artifacts, deployment, traffic, likes, or compliments as proof of demand.
+Use this evidence ladder: generated artifact < stated interest < observed use < costly action < settled payment < repeat use. Report the specific assumption each signal supports; never promote a successful build into proof of demand.
 
-## The Minimalist Validation Process
+## Validation Loop
 
-### Step 1: Define the Problem (not the solution)
+### 1. Scope the question
 
-Ask the user:
-- Who specifically has this problem? (Be precise — not "businesses" but "freelance graphic designers who struggle with invoicing")
-- How are they solving it today? (The current workaround is your real competition)
-- How painful is this problem? (Mild annoyance vs. hair-on-fire)
-- Would they pay to make this problem go away?
+Establish only what is needed to run a credible test:
 
-### Step 2: Can You Solve It Manually First?
+- One specific, reachable user or buyer segment
+- The situation, current workaround, and plausible consequence
+- The riskiest assumption that could kill the idea
+- The observable behavior that would support or weaken that assumption
 
-Before building anything, can you solve this problem for people by hand?
+If the user or problem is still vague, use conversations or focused research first. Generated market summaries and synthetic personas are hypotheses, not customer evidence.
 
-- Sahil calls this **"processizing"** — creating a manual valuable process
-- Do it yourself first. Hire yourself. Write down every step on a piece of paper
-- If you can solve it manually for a few people, you can eventually automate it
-- Example: Gumroad started as Sahil manually collecting PayPal info and paying creators one by one
+### 2. Choose the cheapest credible instrument
 
-### Step 3: Will People Pay?
+Choose by what must be learned:
 
-The ultimate validation is a transaction. Ask:
-- Can you charge for this manual service right now?
-- Have you talked to at least 10 potential customers?
-- Have at least 3 of them said they'd pay (or actually paid)?
-- What price point feels natural?
+- **Conversation or observation** when the problem, language, workflow, or access is unknown.
+- **Manual delivery** when the question is whether the promised outcome is valuable.
+- **Agent-built prototype** when usability, interaction, or a concrete experience is the important unknown and a safe, disposable test can be built in hours.
+- **Focused research first** when the domain is regulated, safety-critical, privacy-sensitive, expensive to reverse, or impossible to test credibly with a throwaway prototype.
 
-### Step 4: Four Questions to Ask Before Building
+Before building, record the target users, one learning question, success and stop signals, a tight time or money budget, and what will deliberately be fake, manual, or omitted.
 
-From the book — ask yourself:
-1. **Can I ship it in the span of a weekend?** First iteration should be prototyped in 2-3 days.
-2. **Is it making my customers' life a little better?** That's a minimum viable product.
-3. **Is a customer willing to pay me for it?** Profitable from day one.
-4. **Can I get feedback quickly?** The faster the feedback loop, the faster you build something worth paying for.
+### 3. Run the test
 
-## Red Flags (Do Not Build If...)
+When the user has asked to build and a writable workspace is in scope, inspect what already exists and implement the smallest testable slice. Reuse existing code and platform features. Skip production infrastructure, broad feature sets, and polish unless the learning question requires them.
 
-- Nobody is currently trying to solve this problem (no existing workarounds)
-- You can't name 10 specific people who have this problem
-- The only validation is "my friends think it's a cool idea"
-- You need to educate people that they have this problem
-- You're building for a community you don't belong to
+Before sending, publishing, deploying, spending, or exposing user data, show the exact action and obtain the user's approval. Use fake or redacted data unless real data is necessary and appropriately protected.
 
-## Green Flags (Worth Pursuing If...)
+Put the result in front of reachable users. Observe what they attempt, where they stop, what they request, whether they return, and whether they will take a costly action. Compliments and agent-generated analytics are weak signals.
 
-- People are already paying for inferior solutions
-- You've manually solved this for a few people and they loved it
-- The community is actively complaining about this problem
-- You can describe the customer and their pain point in one sentence
-- You're scratching your own itch
+### 4. Decide from evidence
+
+- **Discard** when the key assumption is weakened or the problem is not costly enough.
+- **Iterate** when behavior exposes a narrower question worth another cheap test.
+- **Offer** when users obtain value and a paid manual, agent-assisted, or productized delivery is credible.
+- **Invest** only when repeated use, payment, or delivery evidence justifies durable product work.
 
 ## Output
 
-Give the user a clear verdict:
-- **Validated**: Strong signals, proceed to MVP
-- **Needs more validation**: Specific next steps to gather evidence
-- **Pivot**: The idea needs fundamental changes — suggest directions
+Give the user:
+
+1. The riskiest assumption and current evidence strength
+2. The cheapest credible learning instrument
+3. The smallest test, target users, budget, and success or stop signals
+4. A verdict: **discard**, **iterate**, **offer**, or **invest**
+5. Exactly one next action

@@ -9,7 +9,7 @@ Describe this repository as **compatible with agents that support the open Agent
 The shortest cross-agent installation is:
 
 ```bash
-npx skills add suvimatt/first-dollar
+npx skills add suvimatt/agent-bootstrapper
 ```
 
 The Vercel `skills` CLI discovers `skills/<name>/SKILL.md`, detects installed agents, and supports Claude Code, Codex, OpenClaw, Hermes Agent, and many others. It installs to each host's expected directory. Use `--all` only when intentionally installing every skill to every supported agent; the interactive default is safer and less surprising. Choose the installer's **Copy** method for the broadest compatibility (see the OpenClaw symlink caveat below).
@@ -67,7 +67,7 @@ The checked-in `.agents/skills` entry is a symlink to `../skills`. Codex explici
 Install without cloning:
 
 ```bash
-npx skills add suvimatt/first-dollar
+npx skills add suvimatt/agent-bootstrapper
 ```
 
 When prompted for installation method, select **Copy** for maximum host compatibility.
@@ -76,13 +76,13 @@ Useful explicit variants:
 
 ```bash
 # List skills without installing
-npx skills add suvimatt/first-dollar --list
+npx skills add suvimatt/agent-bootstrapper --list
 
 # Install one skill globally for Codex
-npx skills add suvimatt/first-dollar -g -a codex -s validate-idea
+npx skills add suvimatt/agent-bootstrapper -g -a codex -s validate-idea
 
 # Install all skills for the four verified hosts
-npx skills add suvimatt/first-dollar -g \
+npx skills add suvimatt/agent-bootstrapper -g \
   -a codex -a claude-code -a openclaw -a hermes-agent \
   -s '*' --copy -y
 ```
@@ -123,14 +123,14 @@ Sources: [OpenClaw ClawHub documentation](https://docs.openclaw.ai/clawhub), [Op
 Hermes can consume the repository directly as a GitHub tap:
 
 ```bash
-hermes skills tap add suvimatt/first-dollar
-hermes skills install suvimatt/first-dollar/validate-idea
+hermes skills tap add suvimatt/agent-bootstrapper
+hermes skills install suvimatt/agent-bootstrapper/validate-idea
 ```
 
 It can also install a single GitHub path directly:
 
 ```bash
-hermes skills install suvimatt/first-dollar/skills/validate-idea
+hermes skills install suvimatt/agent-bootstrapper/skills/validate-idea
 ```
 
 Once skills.sh has a confirmed listing, Hermes can install its identifier through the `skills-sh` source as well. Source: [Hermes Skills System](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md#skills-hub).
@@ -140,7 +140,7 @@ Once skills.sh has a confirmed listing, Hermes can install its identifier throug
 Keep the public README concise:
 
 1. Title/intro: “Agent Skills for Codex, Claude Code, OpenClaw, Hermes, and other Agent Skills-compatible agents.”
-2. One default install command: `npx skills add suvimatt/first-dollar`.
+2. One default install command: `npx skills add suvimatt/agent-bootstrapper`.
 3. Keep Claude's marketplace commands only as an optional native install path if desired.
 4. Remove per-host command columns from the skills table; users can invoke skills using their host's normal UI/syntax.
 5. Do not add a ClawHub badge or publication claim until the artifacts have actually been published and read back from the registry.

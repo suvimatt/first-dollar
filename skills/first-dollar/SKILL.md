@@ -1,6 +1,6 @@
 ---
 name: first-dollar
-description: Guide a developer or solopreneur from a reachable customer problem to a first verified customer payment. Use when someone wants first revenue, needs the next step from idea to sale, or wants one AI-native, evidence-tracked journey across validation, offer, outreach, payment, and delivery.
+description: Guide a developer or solopreneur from a reachable customer problem to a first verified customer payment. Use when someone wants first revenue, needs the next step from idea to sale, or wants an agent-powered, evidence-tracked journey across validation, offer, outreach, payment, and delivery.
 ---
 
 # First Dollar
@@ -9,14 +9,15 @@ Orchestrate the shortest honest path to one verified customer payment. Reuse the
 
 ## Foundation and Evolution
 
-First Dollar v0.1 primarily adapts *The Minimalist Entrepreneur* by Sahil Lavingia. Treat its principles as strong starting hypotheses, not timeless laws. Distinguish the source framework, First Dollar adaptations, assumptions, and evidence from the user's actual situation.
+First Dollar is the first commercial milestone in *The Agent Bootstrapper*, an experimental adaptation of *The Minimalist Entrepreneur* by Sahil Lavingia. Treat its principles as strong starting hypotheses, not timeless laws. Distinguish the source framework, Agent Bootstrapper adaptations, assumptions, and evidence from the user's actual situation.
 
-Apply four initial AI-native adaptations:
+Apply this agent-infrastructure contract:
 
-- AI reduces building cost, not demand risk. Generated artifacts, deployment, traffic, and attention are not substitutes for buyer commitment or payment.
-- Prefer the cheapest credible experiment. Manual delivery is often best, but an AI-assisted prototype is valid when it produces credible learning faster and more cheaply.
-- As AI increases generic supply, customer access, problem specificity, trust, proprietary context, and distribution become more important.
-- Agents may research, draft, prototype, and operate; keep customer promises, consequential decisions, external actions, and evidence interpretation human-owned.
+- **Prototypes are questions.** Before building, name the riskiest assumption, target user, observable behavior, and stop condition. A generated artifact is not demand evidence.
+- **Use the cheapest credible learning loop.** Choose a conversation, focused research, manual delivery, an agent-built prototype, or a hybrid by learning value, cost, speed, and risk—not by ritual.
+- **Build when building is cheapest.** If a safe, disposable prototype can answer the question in hours, timebox the smallest usable slice and put it in front of reachable users.
+- **User behavior is evidence; revenue is fuel.** Prefer observed use, costly action, payment, delivery, and repeat use over opinions, traffic, or output volume.
+- **Keep judgment human-owned.** Agents may research, draft, build, and operate; people own customer promises, evidence interpretation, consequential decisions, and external actions.
 
 ## Definition of Done
 
@@ -34,7 +35,7 @@ A purchase mainly motivated by friendship, family support, or an existing obliga
 
 1. Recover the latest checkpoint from the conversation or a user-approved `first-dollar.md`. If neither exists, start a compact checkpoint from facts already provided; do not repeat questions the user has answered.
 2. Identify the earliest stage whose gate is not supported by evidence. That stage is the current bottleneck.
-3. Work only on that bottleneck. Ask one focused question or produce one concrete artifact that can cross its gate.
+3. Work only on that bottleneck. Choose the cheapest credible learning instrument. When that instrument is a prototype and the user has asked to build in a writable workspace, implement the smallest testable slice rather than stopping at a plan.
 4. Update the checkpoint with new facts, assumptions, evidence, and experiment results. Never turn an assumption into a fact or use invented precision to rank ideas.
 5. End with exactly one next action that the user can complete or approve. Include its expected evidence and approximate cost in time or money when material.
 
@@ -48,8 +49,8 @@ Advance only when the current gate is met. Move backward when new evidence inval
 |---|---|---|
 | `unscoped` | Starting state. Exit when one reachable community or buyer segment is specific. | `find-community` |
 | `community_identified` | One reachable community or buyer segment is specific, and the user has a credible way to contact members. | `find-community` |
-| `problem_observed` | The problem, current workaround, and consequence are supported by direct observation, buyer conversation, or current spending. | `validate-idea` |
-| `offer_defined` | One buyer, result, boundary, delivery method, turnaround time, and initial price are explicit; a manual version can be delivered now. | `processize`, then `mvp` only if building is justified |
+| `problem_observed` | The problem, current workaround, or consequence is supported by direct observation, buyer conversation, current spending, or behavior in a focused prototype test. | `validate-idea` |
+| `offer_defined` | One buyer, result, boundary, delivery method, turnaround time, and initial price are explicit; a manual, agent-built, or hybrid version can be delivered now. | `processize`, `mvp` |
 | `buyers_listed` | At least three named or precisely locatable prospects match the buyer definition and have a lawful contact path. | `first-customers` |
 | `outreach_started` | At least one personalized message or sales conversation has actually reached a prospect. Drafting alone does not cross the gate. | `first-customers` |
 | `interest_observed` | A prospect takes a costly action: detailed reply, call, requested proposal, checkout attempt, deposit, or equivalent. A like or compliment is insufficient. | `validate-idea`, `pricing` |
@@ -94,7 +95,7 @@ next_action:
 
 Each evidence entry records `date`, `claim`, `kind`, `source`, and `implication`. Use evidence kinds such as `user_report`, `direct_observation`, `buyer_words`, `current_spend`, `costly_action`, and `settled_payment`. Quote buyer words only with permission; otherwise summarize and mark the summary as such.
 
-Each experiment records the hypothesis, target prospects, offer shown, channel, sent/replied/interested/paid counts, recurring objections, result, and next decision. Zero responses and rejection are evidence, not failure to report.
+Each experiment records the riskiest assumption, learning instrument, target users, time or money budget, success and stop signals, offer or prototype shown, observed behavior, recurring objections, result, and next decision. For outreach, also record sent/replied/interested/paid counts. Zero responses, rejection, and prototype abandonment are evidence, not failure to report.
 
 ## Action Boundary
 
@@ -104,7 +105,7 @@ Research and drafting do not authorize external action. Before sending a message
 2. Ask for explicit approval scoped to that single action.
 3. Execute only the approved action and read back the result.
 
-The default validation offer is manual and reversible. Build software only when repeated delivery reveals a stable step worth automating. Do not create payment infrastructure merely to simulate demand; use the smallest lawful payment method the buyer can actually use.
+Use the cheapest credible experiment. Prefer an agent-built prototype over prolonged speculation when interaction with the product is the important unknown and the test is cheap, safe, reversible, and disposable. Prefer manual delivery when the unknown is whether the outcome itself is valuable. Invest in durable product infrastructure only after user behavior or repeated delivery reveals what deserves to survive. Do not create payment infrastructure merely to simulate demand; use the smallest lawful payment method the buyer can actually use.
 
 ## Response Contract
 

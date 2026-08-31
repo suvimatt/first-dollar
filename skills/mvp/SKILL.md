@@ -1,83 +1,62 @@
 ---
 name: mvp
-description: Guide building the smallest credible experiment or MVP, usually manual first and then productized. Use when someone is ready to test a product, considering an AI-assisted prototype, or struggling with scope.
+description: Build the smallest credible experiment or MVP with agents, manual delivery, or both. Use when someone wants a testable prototype, needs to scope a product experiment, or is struggling to turn an idea into user evidence.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the constrained-building principles adapted from *The Minimalist Entrepreneur* and optimize for credible learning rather than output volume.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply constrained-building principles adapted from *The Minimalist Entrepreneur* and optimize for credible learning rather than output volume.
 
 ## Core Principle
 
-**Build as little as possible.** The goal is to start delivering value to your community as quickly as possible. Not to build something beautiful, polished, or complete.
+**Build the smallest instrument that can answer one important question.** Coding agents make working software cheap enough to use as research. The artifact is not the result; the user evidence it produces is.
 
-Prefer the cheapest credible experiment. Manual delivery is often the shortest path, but an AI-assisted prototype is valid when it can test the important assumption faster and more cheaply. A generated or deployed product alone is not demand evidence.
+Prefer manual delivery when the outcome is the unknown. Prefer an agent-built prototype when interaction is the unknown and a safe, disposable slice can be built in hours. Use a hybrid when the interface should feel real but fulfillment can stay manual.
 
-## The Three Stages
+## Prototype Brief
 
-### Stage 1: Manual (Do it yourself)
-- Solve the problem by hand for each customer
-- You are the product. You are customer service, fulfillment, and engineering
-- Write down every step you take — this becomes your process
-- Example: Before Gumroad automated payouts, Sahil collected PayPal emails and sent payments manually, one by one
+Before implementation, make these explicit:
 
-### Stage 2: Processized (Systematize the manual work)
-- Document your process on a piece of paper so anyone could do it
-- If you go on vacation, someone else can take over
-- You've built a system for working efficiently with each customer
-- This is your "magic piece of paper"
+- **User:** Who will try it and how can they be reached?
+- **Riskiest assumption:** What must be learned before further investment?
+- **Behavior:** What observable action would support or weaken it?
+- **Thin slice:** What is the one end-to-end experience required to observe that behavior?
+- **Budget:** Default to one working session or half a day; reduce scope before extending it.
+- **Throwaway boundary:** What will be fake, manual, hard-coded, or omitted?
+- **Safety boundary:** What data, permissions, or real-world effects must remain out of the prototype?
 
-### Stage 3: Productized (Automate the process)
-- Now automate each task so customers can use your product without you
-- This is when you actually build software or a product
-- Only build what you've already proven works manually
+If these cannot be stated, gather the missing user or problem context before building.
 
-## The Four Build Questions
+## Build on Agents
 
-Before building anything, answer:
-1. **Can I ship it in a weekend?** If not, reduce scope until you can.
-2. **Is it making my customers' life a little better?** That's the bar for MVP.
-3. **Is a customer willing to pay for it?** Be profitable from day one.
-4. **Can I get feedback quickly?** Build for people who can tell you if it's working.
+When the user asks to build and a writable workspace is in scope:
 
-## What to Build
+1. Inspect the existing product flow and reuse what is already there.
+2. Implement one vertical slice that the target user can experience.
+3. Use hard-coded, local, fake, or manually fulfilled parts where they do not invalidate the test.
+4. Keep basic input validation, privacy, security, and accessibility wherever real users or data cross the boundary.
+5. Leave one runnable check for non-trivial logic.
+6. Stop when the prototype can answer the learning question.
 
-Most apps on the internet are just **forms and lists** (CRUD: Create, Read, Update, Delete). Your MVP should be no more complex than that.
+Do not add accounts, billing, analytics, background jobs, scaling architecture, mobile clients, design systems, or broad configuration unless the test specifically requires them. Deployment and external user access require explicit approval.
 
-For your MVP:
-- **One thing.** Your product does one thing, at first.
-- **No polish.** It doesn't need to be pretty. CraigsList has never been pretty.
-- **Charge money.** There's a huge difference between free and $1 (the zero price effect). Charge something.
-- **Use existing tools.** Use Carrd, Gumroad, Stripe, Airtable, Google Forms, Zapier, Notion — whatever gets you to market fastest. Every business is tech-enabled now.
+## Test with Users
 
-## What NOT to Build
+Put the prototype in front of reachable users and observe behavior instead of teaching them how to praise it. Record attempts, completion, abandonment, workarounds, requests, return use, and willingness to pay.
 
-- Don't build features you think you'll need "someday"
-- Don't build for scale — you don't have scale problems yet
-- Don't build a mobile app when a website works
-- Don't write code when a spreadsheet works
-- Don't hire an engineer when you can use no-code tools
+Then choose:
 
-## Ship Early and Often
+- **Discard:** The assumption was weakened; stop investing and keep the learning. Archive or remove prototype code only with the user's approval.
+- **Iterate:** One narrower uncertainty deserves another cheap test.
+- **Offer:** Users received value; define a price and deliverable boundary.
+- **Productize:** Repeated use, payment, or delivery reveals stable behavior worth durable automation.
 
-- You will be wrong. The goal is to get less wrong as quickly as possible
-- Gumroad has never shipped a "v2" — just thousands of incremental improvements over many years
-- Each time you ship, you cross the threshold from "I may want this later" to "I need this now" for some customer
-- Your goal is to move away from being paid directly for your time
-
-## Essentials Checklist
-
-Before you launch:
-- [ ] Name your business (two real words combined > made-up word; pass the "radio test")
-- [ ] Buy a domain (~$10/year)
-- [ ] Build a simple website (Carrd, Gumroad, or similar)
-- [ ] Create social media accounts (personal + business)
-- [ ] Set up payments (Stripe or Square — 2.9% + 30¢ per transaction)
-- [ ] Create an email for customer communication
+Generated code, deployment, traffic, likes, and compliments do not by themselves justify productization.
 
 ## Output
 
-Help the user define:
-1. The single thing their MVP does
-2. The simplest possible implementation (manual, no-code, or minimal code)
-3. What they can ship this weekend
-4. Their initial price point
-5. How they'll collect feedback
+Return:
+
+1. The prototype brief
+2. The implemented thin slice when building was requested, otherwise the smallest implementation choice
+3. The exact user test and evidence to record
+4. What was deliberately omitted
+5. The discard, iterate, offer, or productize decision when results exist

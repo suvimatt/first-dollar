@@ -1,91 +1,79 @@
 ---
 name: processize
-description: Turn a product idea into the cheapest credible delivery process you can test now. Use when someone needs to deliver value manually, with AI assistance, or before making a larger product investment.
+description: Turn a product idea into the cheapest credible human-agent delivery process. Use when someone needs to deliver value now, define how agents and people should work together, or decide what deserves durable automation.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the process-first principles adapted from *The Minimalist Entrepreneur* and help the user find the cheapest credible way to deliver and learn.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply process-first principles adapted from *The Minimalist Entrepreneur* and help the user find the cheapest credible way to deliver and learn.
 
 ## Core Principle
 
-**Processize before you productize.** Many products begin with someone doing the work by hand. Gumroad started with Sahil collecting PayPal emails and sending payments to creators one by one. Start manually when that is the fastest credible learning loop; use an AI-assisted prototype when it is genuinely cheaper and more informative.
+**Processize before you productize.** Define how value moves from customer input to delivered outcome before investing in durable software. The first working process may be human, agent, deterministic software, or a hybrid.
 
-> "Most apps on the internet are just forms and lists."
+Agents are infrastructure: use them for reversible research, drafting, transformation, prototyping, and operation. Keep promises, exception judgment, evidence interpretation, and consequential external actions human-owned.
 
-Your job right now is to prove you can deliver value to real people without taking on unnecessary durable product cost. Manual delivery is a strong default, not a ritual.
+Your job is to prove that value can be delivered to a real customer without taking on unnecessary durable product cost.
 
 ## Step 1: What's the Product Idea?
 
-Ask the user to describe what they want to build. Then strip it down:
+Strip the idea down:
 
 - What is the **one thing** this product does for a customer?
 - What does the customer have before they use it, and what do they have after?
-- If you had to deliver this value with zero technology - just you, a phone, and a spreadsheet - how would you do it?
+- What evidence would show that the outcome mattered?
 
-> "Can I ship it in a weekend?" If not, reduce scope until you can.
+If the outcome or buyer is still vague, return to validation rather than designing a larger process.
 
 ## Step 2: Who Needs This Today?
 
-Connect the idea back to a real community:
+Name a reachable buyer and current workaround:
 
-- Who is already trying to solve this problem with a workaround?
-- Where do these people hang out? (Online forum, Slack group, subreddit, local meetup)
-- Can you name 10 specific people who have this problem right now?
+- Who is already trying to solve this problem?
+- Where can the user reach them lawfully?
+- What input can one real buyer provide now?
 
-If you can't name 10 people, you don't know your community well enough yet. Go back to `/find-community`.
+Do not turn an agent-generated prospect list into reachability evidence.
 
-## Step 3: Design the Manual Version
+## Step 3: Map the Delivery Loop
 
-This is the heart of processizing. Walk through exactly how you'd deliver the product's value by hand:
+For every step, record:
 
-- **What does the customer give you?** (An email, a file, a description of what they need)
-- **What do you do with it?** (Every step, in order)
-- **What do you give back?** (The deliverable)
-- **How long does it take you?** (Per customer)
+- Trigger and required input
+- Actor: human, agent, or deterministic tool
+- Action and output
+- Time and variable cost
+- Human review or approval boundary
+- Likely failure and recovery path
 
-> Before Gumroad was software, Sahil collected PayPal emails and paid creators one by one. The "product" was Sahil doing it manually.
+Assign work by its nature:
 
-Be specific. "I process their request" is not a step. "I open their email, copy the file link, run it through X, format the output, and email it back within 2 hours" is a step.
+- **Human:** promises, taste, ambiguous exceptions, evidence interpretation, and consequential decisions.
+- **Agent:** reversible knowledge work, drafts, prototypes, transformations, and supervised operations.
+- **Deterministic tool:** stable, repeatable rules where consistency matters.
 
-## Step 4: Write the Magic Piece of Paper
+Use manual work when it is cheapest. Use an agent-built prototype or workflow when it can make the delivery concrete in hours. Do not build durable infrastructure to automate an untested process.
 
-Document your manual process so clearly that someone else could do it:
+## Step 4: Run One Real Delivery
 
-> Write down every step you take on a piece of paper. This is your "magic piece of paper" - if you went on vacation, someone else could pick it up and keep the business running.
+Choose the smallest existing tools and agent capabilities that can run the loop now. When the user asks to implement it in a writable workspace, build only the thin path required for this delivery and leave one runnable check for non-trivial logic.
 
-Your magic piece of paper should include:
-1. **Trigger** - What kicks off the process? (Customer emails you, fills out a form, sends a message)
-2. **Steps** - Numbered list of exactly what to do, in order
-3. **Tools needed** - What you use at each step (spreadsheet, email, phone, etc.)
-4. **Time per customer** - How long each step takes
-5. **Handoff** - How you deliver the result back to the customer
+Before sending, publishing, charging, deploying, spending, or exposing customer data, show the exact action and obtain approval. Deliver the result, record customer behavior and feedback, and update the process from what actually happened.
 
 ## Step 5: Charge for It
 
-> "There is a massive difference between free and $1."
+Charge for the promised outcome when the buyer and delivery boundary are credible. Record agent usage, human review and rework, third-party fees, and delivery time as real costs.
 
-The zero price effect means free users give you zero signal. Charging even $1 proves someone values what you do.
+Settled payment is stronger evidence than praise. A free prototype test can answer an interaction question, but it does not answer willingness to pay.
 
-- Set a price based on the time it takes you and the value to the customer
-- Reach out to 3 people from your community this week
-- Deliver the manual version and collect payment
-- Every interaction teaches you something no amount of building would
+## Step 6: Decide What Survives
 
-## Step 6: When to Productize
-
-Only automate what you've proven works manually. Signs you're ready:
-
-- You've delivered the manual version to 10+ paying customers
-- You can predict exactly what they'll ask for
-- The steps on your magic piece of paper haven't changed in weeks
-- You're spending more time on delivery than on finding customers
-
-Then - and only then - automate one step at a time. The first thing to automate is whatever takes you the most time per customer.
+Invest in durable automation when real deliveries reveal a stable step whose automation improves customer value, margin, speed, reliability, or founder energy. Keep changing steps flexible; retire prototypes that answered their question; automate the measured bottleneck rather than the most interesting technical task.
 
 ## Output
 
 Help the user create:
-1. A one-sentence description of what their product does manually
-2. The magic piece of paper - their full manual process, step by step
-3. A list of 3 specific people to deliver it to this week
-4. Their initial price point
-5. The first step they'll automate when they're ready (not now)
+
+1. A one-sentence promised outcome
+2. A human-agent delivery loop with review and recovery boundaries
+3. One reachable buyer and the next real delivery
+4. An initial price and honest unit cost
+5. The first measured bottleneck that may deserve durable automation

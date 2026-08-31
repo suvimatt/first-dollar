@@ -1,10 +1,10 @@
 {
-  "name": "first-dollar",
-  "description": "An evolving AI-native startup field guide that helps developers work toward their first verified customer payment.",
+  "name": "agent-bootstrapper",
+  "description": "Agent-powered skills for building prototypes, validating with users, and growing customer-funded businesses.",
   "version": "0.1.0",
   "author": {
     "name": "Suvimatt"
   },
-  "repository": "https://github.com/suvimatt/first-dollar",
+  "repository": "https://github.com/suvimatt/agent-bootstrapper",
   "license": "GPL-3.0-only"
 }

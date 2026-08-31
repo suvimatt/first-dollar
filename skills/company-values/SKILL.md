@@ -3,13 +3,13 @@ name: company-values
 description: Help define company values and culture for a sustainable founder-led business. Use when someone is preparing to hire or wants to codify how the company should make decisions.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the company-building principles adapted from *The Minimalist Entrepreneur* and test them against the user's real situation rather than presenting them as universal truth.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply company-building principles adapted from *The Minimalist Entrepreneur* and test them against the user's real situation rather than presenting them as universal truth.
 
 ## Core Principle
 
 **Focus on culture before hiring.** Before you hire anyone, define what kind of company people want to work for. Values are how you do that. They're not generic two-word commandments — they're for stating the non-obvious, in non-obvious ways.
 
-AI can draft language and surface tradeoffs, but the founder remains responsible for values, customer promises, hiring decisions, and their consequences.
+Agents can draft language, surface tradeoffs, and operationalize repeatable work, but the founder remains responsible for values, customer promises, hiring decisions, delegated authority, and their consequences.
 
 ## Why Values Matter
 
