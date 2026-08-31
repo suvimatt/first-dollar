@@ -1,6 +1,6 @@
 # Field Notes
 
-Use this file to record learning from real First Dollar experiments. Keep customer details minimally identifying, do not store credentials or full payment identifiers, and distinguish observations from interpretations.
+Use this file to record learning from real Agent Bootstrapper experiments. Keep customer details minimally identifying, do not store credentials or full payment identifiers, and distinguish observations from interpretations.
 
 Copy this template for each experiment:
 

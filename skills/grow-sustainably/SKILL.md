@@ -3,7 +3,7 @@ name: grow-sustainably
 description: Evaluate business decisions through the lens of sustainable, profitable growth. Use when someone is making decisions about spending, hiring, fundraising, or scaling their business.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the sustainable-growth principles adapted from *The Minimalist Entrepreneur* and test them against actual revenue, costs, energy, customer demand, and operational evidence.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply sustainable-growth principles adapted from *The Minimalist Entrepreneur* and test them against actual revenue, costs, energy, customer demand, and operational evidence.
 
 ## Core Principle
 
@@ -19,7 +19,7 @@ Make more than you spend: your company can keep going forever. Make less: you wi
 ### Two Types of Costs
 
 **Variable Costs (COGS)**
-- Scale with each unit sold: payment processing, hosting, fraud prevention
+- Scale with each unit sold: agent usage, human review and rework, payment processing, hosting, fraud prevention
 - Example: At Gumroad, ~40¢ of variable cost per $1 earned
 
 **Fixed Costs**
@@ -30,13 +30,13 @@ Make more than you spend: your company can keep going forever. Make less: you wi
 
 1. **Pay yourself as little as possible, at least to start.** Sahil started at $36K/year in San Francisco. When things went sideways in 2015, he paid himself $0. Increase your salary as the company can afford it.
 
-2. **Hire software, not humans.** Use Pilot/Bench for accounting, Gusto for payroll, Zapier for automation. Software is cheap; people are expensive.
+2. **Use agents and software before hiring.** Treat them as infrastructure, but measure usage, supervision, rework, failures, and customer impact rather than assuming automation is free.
 
 3. **Don't get an office.** Remote is the default now. An office creates massive associated costs. Get one later as a reward for building a sustainable business, if you want.
 
 4. **Don't move to Silicon Valley.** It's expensive, and remote work means you can stay where you are. Lower costs = faster path to profitability.
 
-5. **Outsource everything.** Use freelancers before hiring full-time. You and your army of robots first. Then freelancers. Then employees.
+5. **Hire when the measured constraint requires a person.** Use agents for reversible, reviewable work; freelancers for bounded expertise; employees for durable ownership that the business can support.
 
 ## Growth Mindset
 

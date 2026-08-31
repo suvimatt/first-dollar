@@ -1,28 +1,28 @@
 {
-  "name": "first-dollar",
+  "name": "agent-bootstrapper",
   "version": "0.1.0",
-  "description": "Agent skills that guide developers from an idea to their first verified customer payment.",
+  "description": "Agent-powered skills for building prototypes, validating with users, and growing customer-funded businesses.",
   "author": {
     "name": "Suvimatt"
   },
-  "repository": "https://github.com/suvimatt/first-dollar",
+  "repository": "https://github.com/suvimatt/agent-bootstrapper",
   "license": "GPL-3.0-only",
   "keywords": [
     "entrepreneurship",
     "solopreneur",
     "business",
-    "ai-native"
+    "coding-agents"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "First Dollar",
-    "shortDescription": "Reach your first verified customer payment.",
-    "longDescription": "An evidence-tracked journey and practical skills for finding a reachable customer problem, defining a manual offer, making a sale, delivering value, and growing sustainably.",
+    "displayName": "The Agent Bootstrapper",
+    "shortDescription": "Build on agents. Validate with users. Grow with revenue.",
+    "longDescription": "Practical skills for using agents as infrastructure, prototypes as questions, user behavior as evidence, and revenue as fuel.",
     "developerName": "Suvimatt",
     "category": "Productivity",
     "capabilities": [
       "Interactive"
     ],
-    "defaultPrompt": "Help me take the next evidence-backed step toward my first verified customer payment."
+    "defaultPrompt": "Help me choose and run the cheapest credible experiment for my current business assumption."
   }
 }

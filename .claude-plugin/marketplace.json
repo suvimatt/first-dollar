@@ -1,16 +1,16 @@
 {
-  "name": "first-dollar",
+  "name": "agent-bootstrapper",
   "owner": {
     "name": "Suvimatt"
   },
   "metadata": {
-    "description": "An evolving AI-native startup field guide for developers working toward their first verified customer payment."
+    "description": "Build on agents. Validate with users. Grow with revenue."
   },
   "plugins": [
     {
-      "name": "first-dollar",
+      "name": "agent-bootstrapper",
       "source": "./",
-      "description": "Agent Skills adapted from The Minimalist Entrepreneur with an evidence-tracked First Dollar journey and AI-native experimentation guidance."
+      "description": "Agent Skills for using prototypes as questions, user behavior as evidence, and revenue as fuel."
     }
   ]
 }

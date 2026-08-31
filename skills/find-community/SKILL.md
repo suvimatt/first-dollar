@@ -3,13 +3,13 @@ name: find-community
 description: Help identify and evaluate reachable communities or buyer segments to build a business around. Use when someone is looking for a business idea, trying to find potential customers, or wondering where to start.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the community-first principles adapted from *The Minimalist Entrepreneur* and test them against the user's real access and evidence.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply community-first principles adapted from *The Minimalist Entrepreneur* and test them against the user's real access and evidence.
 
 ## Core Principle
 
 **Start with community, not with a product idea.** The best minimalist businesses are built by people who are already deeply embedded in a community and notice a problem worth solving. You don't "find" a community — you already belong to several.
 
-In First Dollar, a precisely defined buyer segment with a credible contact path can be a valid starting point even when the founder is not yet a community insider. As AI makes generic supply cheaper, customer access, specificity, trust, and distribution matter more.
+In The Agent Bootstrapper, a precisely defined buyer segment with a credible contact path can be a valid starting point even when the founder is not yet a community insider. Agents can accelerate public research, pattern finding, and prototype creation, but generated personas and prospect lists are hypotheses. As software supply gets cheaper, customer access, specificity, trust, and distribution matter more.
 
 ## Framework: Identify Your Communities
 

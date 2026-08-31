@@ -39,7 +39,7 @@ The Agent Bootstrapper is independent, experimental, and evolving. It is not an 
 Use the cross-agent [`skills`](https://skills.sh) installer:
 
 ```bash
-npx skills add suvimatt/ai-bootstrapper
+npx skills add suvimatt/agent-bootstrapper
 ```
 
 The installer detects supported agents and lets you choose which skills to install.
@@ -47,7 +47,7 @@ The installer detects supported agents and lets you choose which skills to insta
 ## Upgrade to get the latest version
 
 ```bash
-npx skills update suvimatt/ai-bootstrapper
+npx skills update suvimatt/agent-bootstrapper
 ```
 
 ## Skills
@@ -56,9 +56,9 @@ npx skills update suvimatt/ai-bootstrapper
 |-------|---------|-------------|
 | **First Dollar** | `/first-dollar` | Want one guided path from a reachable problem to a verified customer payment |
 | **Find Community** | `/find-community` | Looking for a business idea, trying to find your community |
-| **Validate Idea** | `/validate-idea` | Testing if a business idea is worth pursuing |
-| **MVP** | `/mvp` | Ready to build your first product, struggling with scope |
-| **Processize** | `/processize` | Have a product idea, want to deliver value by hand before writing code |
+| **Validate Idea** | `/validate-idea` | Choose the cheapest credible test for a business idea |
+| **MVP** | `/mvp` | Build the smallest user-testable question with agents, manual work, or both |
+| **Processize** | `/processize` | Design a credible human-agent delivery loop before durable automation |
 | **First Customers** | `/first-customers` | Have a product, need to find your first 100 customers |
 | **Pricing** | `/pricing` | Setting prices, considering price changes |
 | **Marketing Plan** | `/marketing-plan` | Have product-market fit, ready to scale with content |
@@ -81,8 +81,8 @@ The current companion skills retain the book's progression:
 
 1. **Community** — Start by finding your people
 2. **Validate** — Make sure the problem is worth solving
-3. **Build** — Ship a manual process, then productize it
-4. **Processize** — Turn your product idea into a manual process you can deliver today
+3. **Build** — Use agents when a disposable prototype is the cheapest credible test
+4. **Processize** — Turn observed value into a human-agent delivery loop
 5. **Sell** — Get to 100 customers one by one
 6. **Price** — Charge something from day one
 7. **Market** — Build an audience through content

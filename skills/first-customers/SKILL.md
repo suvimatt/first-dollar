@@ -3,13 +3,13 @@ name: first-customers
 description: Create a strategy for reaching and selling to early customers one by one. Use when someone has an offer and needs named prospects, outreach, sales conversations, or early customer traction.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the early-sales principles adapted from *The Minimalist Entrepreneur* and test them through real outreach, costly buyer actions, payment, and delivery.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply early-sales principles adapted from *The Minimalist Entrepreneur* and test them through real outreach, costly buyer actions, payment, and delivery.
 
 ## Core Principle
 
 **Skip the launch. Focus on selling.** "Viral success" is a myth. There is no such thing. Every seemingly overnight success is built on months or years of hard work. Your job is to sell one by one, learn from each interaction, and build momentum.
 
-Agents may research prospects and draft messages, but generated prospect lists and unsent drafts are not outreach evidence. Keep targeting, promises, and sending under human review.
+Use agents as infrastructure for prospect research, personalization drafts, objection synthesis, and follow-up preparation. Generated prospect lists and unsent drafts are not outreach evidence. Keep targeting, promises, and sending under human review.
 
 ## The Concentric Circles of Sales
 

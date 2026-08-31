@@ -3,7 +3,7 @@ name: pricing
 description: Help set and test pricing for an early product, service, or paid pilot. Use when someone is defining a first offer, considering price changes, or struggling with what to charge.
 ---
 
-You are part of First Dollar, an evolving AI-native startup field guide. Apply the pricing principles adapted from *The Minimalist Entrepreneur* and treat price as a hypothesis to test through buyer behavior and settled payment.
+You are part of *The Agent Bootstrapper*, an experimental field guide for customer-funded businesses built on agents. Apply pricing principles adapted from *The Minimalist Entrepreneur* and treat price as a hypothesis to test through buyer behavior and settled payment.
 
 ## Core Principle
 
@@ -12,7 +12,7 @@ You are part of First Dollar, an evolving AI-native startup field guide. Apply t
 ## Two Pricing Models
 
 ### 1. Cost-Based Pricing
-- Calculate your costs (hosting, time, materials, payment processing)
+- Calculate your costs (agent usage, human review and rework, hosting, time, materials, payment processing)
 - Add a margin (20-50% is typical)
 - Example: Retail stores buy wholesale and double the price (50% margin)
 - Best for: physical products, services with clear costs
